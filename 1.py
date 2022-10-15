@@ -3,7 +3,6 @@ import pandas as pd
 s1=pd.read_excel('s1.xlsx')
 s2=pd.read_excel('s2.xlsx')
 
-s1.equals(s2)
 exist=0
 comparison_values = s1.values == s2.values
 comparison_values.tolist()
