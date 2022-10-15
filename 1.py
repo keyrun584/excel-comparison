@@ -5,7 +5,6 @@ s2=pd.read_excel('s2.xlsx')
 
 s1.equals(s2)
 exist=0
-non_exist=0
 comparison_values = s1.values == s2.values
 comparison_values.tolist()
 for i in range(0,len(comparison_values)):
