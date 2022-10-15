@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 s1=pd.read_excel('s1.xlsx')
 s2=pd.read_excel('s2.xlsx')
